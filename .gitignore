@@ -1,0 +1,105 @@
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# ── Virtual Environments ──────────────────────────────────────
+venv/
+env/
+.env
+.venv
+ENV/
+env.bak/
+venv.bak/
+
+# ── ML Artifacts (regenerated on training) ───────────────────
+backend/artifacts/model.pkl
+backend/artifacts/scaler.pkl
+backend/artifacts/feature_names.pkl
+backend/artifacts/encoder_map.pkl
+backend/artifacts/evaluation_report.json
+
+# ── Data (keep fraud_oracle.csv, ignore generated splits) ─────
+backend/data/train.csv
+backend/data/test.csv
+backend/data/validation_report.txt
+
+# ── Logs ─────────────────────────────────────────────────────
+backend/logs/
+*.log
+
+# ── Environment Variables ─────────────────────────────────────
+.env
+.env.local
+.env.development
+.env.production
+.env.*.local
+
+# ── Node / Frontend ───────────────────────────────────────────
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend-app/
+
+# ── Vite ─────────────────────────────────────────────────────
+dist/
+dist-ssr/
+*.local
+
+# ── OS Files ─────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ── IDE / Editor ─────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.project
+.classpath
+.settings/
+
+# ── Jupyter Notebooks ────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Docker ───────────────────────────────────────────────────
+.dockerignore
+
+# ── Misc ─────────────────────────────────────────────────────
+*.zip
+*.tar.gz
+*.rar
+.cache/
+.pytest_cache/
+.mypy_cache/
+coverage/
+.coverage
+htmlcov/
